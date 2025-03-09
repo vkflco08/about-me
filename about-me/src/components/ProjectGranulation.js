@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import './ProjectDetail.css';
-import judoDeploymentImg from "../assets/JUDO-배포로직.png"
+import JudoDeploymentImg from "../assets/JUDO-배포로직.png"
+import GranulationMainImg from "../assets/granulation-daily.png"
+import GranulationClassImg from "../assets/granulation-class.png"
 
 function ProjectGranulation() {
   
@@ -30,8 +32,8 @@ function ProjectGranulation() {
       <p><strong>Team Members</strong> {project.teamMembers}</p>
 
       <div className="project-images">
-        <img src="../assets/granulation-daily.png" className="project-image" alt=""/>
-        <img src="../assets/granulation-class.png" className="project-image" alt=""/>
+        <img src={GranulationMainImg} className="project-image" alt=""/>
+        <img src={GranulationClassImg} className="project-image" alt=""/>
       </div>
 
       <p><strong>Description</strong></p>
@@ -81,7 +83,7 @@ function ProjectGranulation() {
       </ul>
 
       <div className="project-images">
-        <img src={judoDeploymentImg} className="project-image" alt=""/>
+        <img src={JudoDeploymentImg} className="project-image" alt=""/>
       </div>
     </div>
   );
