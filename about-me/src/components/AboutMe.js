@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Footer from "./Footer"
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Career from "./Career";
@@ -54,6 +55,19 @@ function AboutMe() {
             <p>2024 고려대학교 세종캠퍼스 (졸업예정)</p>
           </div>
         </div>
+
+        <div id="contact">
+          <div className="contact-links">
+            <a href="https://github.com/vkflco08" target="_blank" rel="noopener noreferrer">
+              <img src="../assets/github.png" alt="GitHub" width={30} height={30} />
+            </a>
+            <a href="https://velog.io/@vkflco08/posts" target="_blank" rel="noopener noreferrer">
+              <img src="../assets/velog.png" alt="Velog" width={30} height={30} />
+            </a>
+            <strong>Email : vkflco8080@gmail.com</strong>
+            
+          </div>
+        </div>
       </section>
 
       {/* Awards 섹션 */}
@@ -75,6 +89,8 @@ function AboutMe() {
       <section id="career">
         <Career />
       </section>
+
+      <Footer />
     </div>
   );
 }

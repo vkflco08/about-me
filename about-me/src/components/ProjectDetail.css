@@ -59,7 +59,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* 반응형 그리드 */
   gap: 20px;
-  margin-top: 30px;
+  margin: 40px 0;
 }
 
 .project-images img {
@@ -131,4 +131,16 @@
 .feature-list li p strong {
   font-weight: 600;
   color: #007bff;
+}
+
+.tech-stack {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.tech-stack img {
+  height: 25px;  /* 배지 크기 조정 */
+  border-radius: 5px; /* 더 부드러운 모서리 */
 }

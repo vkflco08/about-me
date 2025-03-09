@@ -7,16 +7,10 @@ function ProjectSequence() {
   }, []);
 
   const project = {
-    id: 4,
     name: "Sequence",
     period: "2024. 11 ~ 현재",
     teamMembers: "Underdog Revolution : 10명",
     description: "고려대학교 세종캠퍼스와 홍익대학교 세종캠퍼스의 교류를 위한 커뮤니티 서비스",
-    techStack: {
-      languages: ["Java"],
-      frameworks: ["Spring Boot"],
-      database: ["MariaDB"],
-    }
   };
 
   // description의 개행을 <br /> 태그로 변환
@@ -37,17 +31,22 @@ function ProjectSequence() {
       </ul>
 
       <div className="project-images">
-        <img src="/Sequence-main.png" className="project-image" alt=""/>
+        <img src="../assets/Sequence-main.png" className="project-image" alt=""/>
       </div>
 
       <p><strong>Description</strong></p>
       <p>{descriptionWithBreaks}</p> {/* 개행 적용된 description */}
       <p><strong>Tech Stack</strong></p>
-      <ul>
-        <li><strong>Languages:</strong> {project.techStack.languages.join(", ")}</li>
-        <li><strong>Frameworks:</strong> {project.techStack.frameworks.join(", ")}</li>
-        <li><strong>Databases:</strong> {project.techStack.database.join(", ")}</li>
-      </ul>
+      <div className="tech-stack">
+        {/* Spring Boot */}
+        <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
+        {/* Java */}
+        <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white" alt="Java" />
+        {/* MariaDB */}
+        <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white" alt="MariaDB" />
+        {/* Docker */}
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+      </div>
       <p><strong>What did i do</strong></p>
       <ul className="feature-list">
       <li>

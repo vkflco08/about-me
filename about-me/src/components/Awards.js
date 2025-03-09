@@ -20,12 +20,12 @@ function Awards() {
           <h3>2023년</h3>
           <ul>
             <li>
-              <span className="Award-title">SW융합 클러스터 2.0 <br></br>디지털 콘텐츠 DX 해커톤 우수상</span>
-              <span className="Award-org">고려대학교 세종산학협력단장, <br></br>홍익대학교 세종산학협력단장</span>
-            </li>
-            <li>
               <span className="Award-title">SW융합 클러스터 2.0 <br></br>산학연계 뉴노멀 프로젝트 대상</span>
               <span className="Award-org">고려대학교 세종산학협력단장</span>
+            </li>
+            <li>
+              <span className="Award-title">SW융합 클러스터 2.0 <br></br>디지털 콘텐츠 DX 해커톤 우수상</span>
+              <span className="Award-org">고려대학교 세종산학협력단장, <br></br>홍익대학교 세종산학협력단장</span>
             </li>
           </ul>
         </div>

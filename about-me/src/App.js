@@ -82,6 +82,7 @@ import ProjectJudo from "./components/ProjectJudo";
 import ProjectSoulmate from "./components/ProjectSoulmate";
 import ProjectSequence from "./components/ProjectSequence";
 import ProjectGranulation from "./components/ProjectGranulation";
+import ProjectMemo from "./components/ProjectMemo"
 import './App.css';
 
 function App() {
@@ -94,6 +95,7 @@ function App() {
         <Route path="/project/soulmate" element={<ProjectSoulmate />} />
         <Route path="/project/sequence" element={<ProjectSequence />} />
         <Route path="/project/granulation" element={<ProjectGranulation />} />
+        <Route path="/project/memo" element={<ProjectMemo />} />
       </Routes>
     </Router>
   );
