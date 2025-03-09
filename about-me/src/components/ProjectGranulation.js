@@ -38,8 +38,8 @@ function ProjectSoulmate() {
       </ul> */}
 
       <div className="project-images">
-        <img src="/granulation-daily.png" className="project-image" />
-        <img src="/granulation-class.png" className="project-image" />
+        <img src="/granulation-daily.png" className="project-image" alt=""/>
+        <img src="/granulation-class.png" className="project-image" alt=""/>
       </div>
 
       <p><strong>Description</strong></p>

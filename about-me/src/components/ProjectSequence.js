@@ -37,7 +37,7 @@ function ProjectSequence() {
       </ul>
 
       <div className="project-images">
-        <img src="/Sequence-main.png" className="project-image" />
+        <img src="/Sequence-main.png" className="project-image" alt=""/>
       </div>
 
       <p><strong>Description</strong></p>

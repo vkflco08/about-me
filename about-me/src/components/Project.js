@@ -66,8 +66,8 @@ function ProjectSoulmate() {
         
       </ul>   
       <div className="project-images">
-        <img src="/soulmateERD.png"  className="project-image" />
-        <img src="/soulmate-배포로직.png"  className="project-image" />
+        <img src="/soulmateERD.png"  className="project-image" alt=""/>
+        <img src="/soulmate-배포로직.png"  className="project-image" alt=""/>
       </div>
     </div>
   );

@@ -38,8 +38,8 @@ function ProjectJudo() {
       </ul>
 
       <div className="project-images">
-        <img src="/JUDO-1.png" className="project-image" />
-        <img src="/JUDO-2.png" className="project-image" />
+        <img src="/JUDO-1.png" className="project-image" alt=""/>
+        <img src="/JUDO-2.png" className="project-image" alt=""/>
       </div>
 
       <p><strong>Description</strong></p>
@@ -78,8 +78,8 @@ function ProjectJudo() {
         </li>
       </ul>   
       <div className="project-images">
-        <img src="/JUDO-ERD.png" className="project-image" />
-        <img src="/JUDO-배포로직.png" className="project-image" />
+        <img src="/JUDO-ERD.png" className="project-image" alt=""/>
+        <img src="/JUDO-배포로직.png" className="project-image" alt=""/>
       </div>
     </div>
   );
