@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import './ProjectDetail.css'
-
+import SoulmateERDImg from "../assets/soulmateERD.png"
+import SoulmateDeploymentImg from "../assets/soulmate-배포로직.png"
 function ProjectSoulmate() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -77,8 +78,8 @@ function ProjectSoulmate() {
         </li>
       </ul>   
       <div className="project-images">
-        <img src="../assets/soulmateERD.png" className="project-image" alt=""/>
-        <img src="../assets/soulmate-배포로직.png" className="project-image" alt=""/>
+        <img src={SoulmateERDImg} className="project-image" alt=""/>
+        <img src={SoulmateDeploymentImg} className="project-image" alt=""/>
       </div>
     </div>
   );

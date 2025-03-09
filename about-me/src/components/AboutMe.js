@@ -4,6 +4,8 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import Career from "./Career";
 import Awards from "./Awards";
+import githubImg from "../assets/github.png"
+import velogImg from "../assets/velog.png"
 
 function AboutMe() {
   // 특정 섹션으로 스크롤 이동하는 함수
@@ -59,10 +61,10 @@ function AboutMe() {
         <div id="contact">
           <div className="contact-links">
             <a href="https://github.com/vkflco08" target="_blank" rel="noopener noreferrer">
-              <img src="../assets/github.png" alt="GitHub" width={30} height={30} />
+              <img src={githubImg} alt="GitHub" width={30} height={30} />
             </a>
             <a href="https://velog.io/@vkflco08/posts" target="_blank" rel="noopener noreferrer">
-              <img src="../assets/velog.png" alt="Velog" width={30} height={30} />
+              <img src={velogImg} alt="Velog" width={30} height={30} />
             </a>
             <strong>Email : vkflco8080@gmail.com</strong>
             

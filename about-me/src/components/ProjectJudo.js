@@ -1,5 +1,9 @@
 import { useEffect } from "react";
 import './ProjectDetail.css'
+import JudoFirstImg from "../assets/JUDO-1.png"
+import JudoSecondImg from "../assets/JUDO-2.png"
+import JudoDeploymentImg from "../assets/JUDO-배포로직.png"
+import JudoERDImg from "../assets/JUDO-ERD.png"
 
 function ProjectJudo() {
   useEffect(() => {
@@ -31,8 +35,8 @@ function ProjectJudo() {
       </ul>
 
       <div className="project-images">
-        <img src="../assets/JUDO-1.png" className="project-image" alt=""/>
-        <img src="../assets/JUDO-2.png" className="project-image" alt=""/>
+        <img src={JudoFirstImg} className="project-image" alt=""/>
+        <img src={JudoSecondImg} className="project-image" alt=""/>
       </div>
 
       <p><strong>Description</strong></p>
@@ -85,8 +89,8 @@ function ProjectJudo() {
         </li>
       </ul>   
       <div className="project-images">
-        <img src="../assets/JUDO-ERD.png" className="project-image" alt=""/>
-        <img src="../assets/JUDO-배포로직.png" className="project-image" alt=""/>
+        <img src={JudoERDImg} className="project-image" alt=""/>
+        <img src={JudoDeploymentImg} className="project-image" alt=""/>
       </div>
     </div>
   );

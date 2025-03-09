@@ -1,5 +1,8 @@
 import { useEffect } from "react";
 import './ProjectDetail.css';
+import MemoMainPageImg from "../assets/MEMO-main-page.png"
+import MemoAllMemosImg from "../assets/MEMO-all-memos.png"
+import JudoDeploymentImg from "../assets/JUDO-배포로직.png"
 
 function ProjectMemo() {
   
@@ -29,8 +32,8 @@ function ProjectMemo() {
       <p><strong>Team Members</strong> {project.teamMembers}</p>
 
       <div className="project-images">
-        <img src="../assets/MEMO-main-page.png" className="project-image" alt=""/>
-        <img src="../assets/MEMO-all-memos.png" className="project-image" alt=""/>
+        <img src={MemoMainPageImg} className="project-image" alt=""/>
+        <img src={MemoAllMemosImg} className="project-image" alt=""/>
       </div>
 
       <p><strong>Description</strong></p>
@@ -84,7 +87,7 @@ function ProjectMemo() {
       </ul>
 
       <div className="project-images">
-        <img src="../assets/JUDO-배포로직.png" className="project-image" alt=""/>
+        <img src={JudoDeploymentImg} className="project-image" alt=""/>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import './ProjectDetail.css';
+import judoDeploymentImg from "../assets/JUDO-배포로직.png"
 
 function ProjectGranulation() {
   
@@ -80,7 +81,7 @@ function ProjectGranulation() {
       </ul>
 
       <div className="project-images">
-        <img src="../assets/JUDO-배포로직.png" className="project-image" alt=""/>
+        <img src={judoDeploymentImg} className="project-image" alt=""/>
       </div>
     </div>
   );

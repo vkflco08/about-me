@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import './ProjectDetail.css'
+import SequenceMainImg from "../assets/Sequence-main.png"
 
 function ProjectSequence() {
   useEffect(() => {
@@ -31,7 +32,7 @@ function ProjectSequence() {
       </ul>
 
       <div className="project-images">
-        <img src="../assets/Sequence-main.png" className="project-image" alt=""/>
+        <img src={SequenceMainImg} className="project-image" alt=""/>
       </div>
 
       <p><strong>Description</strong></p>
