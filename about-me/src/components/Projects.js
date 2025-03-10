@@ -27,7 +27,7 @@ const projects = [
     name: "Sequence",
     route: "sequence",
     period: "2024. 11 ~ 현재",
-    description: "고려대학교 세종캠퍼스와 홍익대학교 세종캠퍼스의 교류를 위한 커뮤니티 서비스",
+    description: "대학 간 PM / 디자이너 / 개발자 교류 서비스",
   },
   {
     id: 4,

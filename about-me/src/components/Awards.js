@@ -51,6 +51,15 @@ function Awards() {
             </li>
           </ul>
         </div>
+        <div className="Award-item">
+          <h3>2018년</h3>
+          <ul>
+            <li>
+              <span className="Award-title">제4회 국가슈퍼컴퓨팅 청소년캠프 최우수상</span>
+              <span className="Award-org">울산과학기술원 총장상</span>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
   );
