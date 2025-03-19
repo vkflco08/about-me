@@ -13,7 +13,7 @@ function ProjectJudo() {
   const project = {
     name: "JUDO",
     period: "2024. 10 ~ 2024. 12 (3개월)",
-    teamMembers: "박병영 : PM, 조승빈 : BE",
+    teamMembers: "박병영 : PM, 조승빈 : 기획, Backend & Frontend 개발",
     description: "2030을 대상으로 하는 주류 추천 서비스",
   };
 

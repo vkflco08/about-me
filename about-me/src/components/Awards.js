@@ -46,7 +46,7 @@ function Awards() {
           <h3>2019년</h3>
           <ul>
             <li>
-              <span className="Award-title">학술제 작품 경진 대회 대상</span>
+              <span className="Award-title">학술제 작품 경진 대회 신입생 2등</span>
               <span className="Award-org">고려대학교 세종산학협력단장</span>
             </li>
           </ul>
