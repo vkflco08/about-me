@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.6fadc550.css",
-    "main.js": "/static/js/main.968bcbd9.js",
-    "static/js/453.0fbe92db.chunk.js": "/static/js/453.0fbe92db.chunk.js",
-    "static/media/JUDO-1.png": "/static/media/JUDO-1.86928a356636dc987d14.png",
-    "static/media/JUDO-2.png": "/static/media/JUDO-2.388a962564c5d4d02a28.png",
-    "static/media/MEMO-main-page.png": "/static/media/MEMO-main-page.3d4c3a3275644bbf48f1.png",
-    "static/media/MEMO-all-memos.png": "/static/media/MEMO-all-memos.bf0d7a9e570f09291c64.png",
-    "static/media/granulation-class.png": "/static/media/granulation-class.3f5ea8773697fd46044d.png",
-    "static/media/JUDO-배포로직.png": "/static/media/JUDO-배포로직.b8079999cebb2e9c2b9f.png",
-    "static/media/soulmateERD.png": "/static/media/soulmateERD.d181e9bf9f0393874c58.png",
-    "static/media/granulation-daily.png": "/static/media/granulation-daily.7e6393acfdadf4b997ed.png",
-    "static/media/soulmate-배포로직.png": "/static/media/soulmate-배포로직.d650c2875e844e66df8c.png",
-    "static/media/JUDO-ERD.png": "/static/media/JUDO-ERD.49b277a760a858288315.png",
-    "static/media/Sequence-main.png": "/static/media/Sequence-main.d833354e60d5c7319237.png",
-    "index.html": "/index.html",
-    "main.6fadc550.css.map": "/static/css/main.6fadc550.css.map",
-    "main.968bcbd9.js.map": "/static/js/main.968bcbd9.js.map",
-    "453.0fbe92db.chunk.js.map": "/static/js/453.0fbe92db.chunk.js.map"
+    "main.css": "/about-me/static/css/main.6fadc550.css",
+    "main.js": "/about-me/static/js/main.a84b0d71.js",
+    "static/js/453.0fbe92db.chunk.js": "/about-me/static/js/453.0fbe92db.chunk.js",
+    "static/media/JUDO-1.png": "/about-me/static/media/JUDO-1.86928a356636dc987d14.png",
+    "static/media/JUDO-2.png": "/about-me/static/media/JUDO-2.388a962564c5d4d02a28.png",
+    "static/media/MEMO-main-page.png": "/about-me/static/media/MEMO-main-page.3d4c3a3275644bbf48f1.png",
+    "static/media/MEMO-all-memos.png": "/about-me/static/media/MEMO-all-memos.bf0d7a9e570f09291c64.png",
+    "static/media/granulation-class.png": "/about-me/static/media/granulation-class.3f5ea8773697fd46044d.png",
+    "static/media/JUDO-배포로직.png": "/about-me/static/media/JUDO-배포로직.b8079999cebb2e9c2b9f.png",
+    "static/media/soulmateERD.png": "/about-me/static/media/soulmateERD.d181e9bf9f0393874c58.png",
+    "static/media/granulation-daily.png": "/about-me/static/media/granulation-daily.7e6393acfdadf4b997ed.png",
+    "static/media/soulmate-배포로직.png": "/about-me/static/media/soulmate-배포로직.d650c2875e844e66df8c.png",
+    "static/media/JUDO-ERD.png": "/about-me/static/media/JUDO-ERD.49b277a760a858288315.png",
+    "static/media/Sequence-main.png": "/about-me/static/media/Sequence-main.d833354e60d5c7319237.png",
+    "index.html": "/about-me/index.html",
+    "main.6fadc550.css.map": "/about-me/static/css/main.6fadc550.css.map",
+    "main.a84b0d71.js.map": "/about-me/static/js/main.a84b0d71.js.map",
+    "453.0fbe92db.chunk.js.map": "/about-me/static/js/453.0fbe92db.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6fadc550.css",
-    "static/js/main.968bcbd9.js"
+    "static/js/main.a84b0d71.js"
   ]
 }
