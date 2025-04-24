@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/about-me/static/css/main.6fadc550.css",
-    "main.js": "/about-me/static/js/main.a84b0d71.js",
+    "main.js": "/about-me/static/js/main.32a3763e.js",
     "static/js/453.0fbe92db.chunk.js": "/about-me/static/js/453.0fbe92db.chunk.js",
     "static/media/JUDO-1.png": "/about-me/static/media/JUDO-1.86928a356636dc987d14.png",
     "static/media/JUDO-2.png": "/about-me/static/media/JUDO-2.388a962564c5d4d02a28.png",
@@ -16,11 +16,11 @@
     "static/media/Sequence-main.png": "/about-me/static/media/Sequence-main.d833354e60d5c7319237.png",
     "index.html": "/about-me/index.html",
     "main.6fadc550.css.map": "/about-me/static/css/main.6fadc550.css.map",
-    "main.a84b0d71.js.map": "/about-me/static/js/main.a84b0d71.js.map",
+    "main.32a3763e.js.map": "/about-me/static/js/main.32a3763e.js.map",
     "453.0fbe92db.chunk.js.map": "/about-me/static/js/453.0fbe92db.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6fadc550.css",
-    "static/js/main.a84b0d71.js"
+    "static/js/main.32a3763e.js"
   ]
 }
