@@ -21,7 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://vkflco08.github.io/about-me",
+  "homepage": "https://vkflco08.github.io/about-me/",
   "eslintConfig": {
     "extends": [
       "react-app",
