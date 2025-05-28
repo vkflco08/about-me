@@ -10,7 +10,7 @@ function ProjectSequence() {
   const project = {
     name: "Sequence",
     period: "2024. 11 ~ 현재",
-    teamMembers: "Underdog Revolution : 10명",
+    teamMembers: "Underdog Revolution : 7명",
     description: "대학 간 PM / 디자이너 / 개발자 교류 서비스",
   };
 
@@ -61,9 +61,27 @@ function ProjectSequence() {
       <li>
         <h4>마이페이지 개발 (My Page Development)</h4>
         <p>마이페이지 기능을 담당하여, 관련 데이터베이스 구조를 설계하고 구현했습니다.</p>
-        <p>사용자의 정보를 관리하기 위한 CRUD 기능을 개발하고 있습니다.</p>
+        <p>사용자의 정보를 관리하기 위한 기능을 개발하고 있습니다.</p>
+      </li>
+
+      <li>
+        <h4>소셜 로그인 구현</h4>
+        <p>현재 카카오와 구글 로그인 태스크를 진행 중입니다.</p>
+        <p>OAuth 2.0 프로토콜을 사용하여 안전한 소셜 로그인을 구현 중입니다.</p>
+        <p>사용자 정보 관리와 토큰 기반 인증 구현을 진행 중입니다.</p>
       </li>
       </ul>   
+      {/* <div className="mt-8">
+        <p><strong>배포 사이트</strong></p>
+        <a
+          href="https://sequence.devjsb.store"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:text-blue-800 block"
+        >
+          sequence.devjsb.store
+        </a>
+      </div> */}
     </div>
   );
 }

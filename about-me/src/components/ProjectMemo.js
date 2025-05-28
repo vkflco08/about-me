@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import './ProjectDetail.css';
 import MemoMainPageImg from "../assets/MEMO-main-page.png"
 import MemoAllMemosImg from "../assets/MEMO-all-memos.png"
-import JudoDeploymentImg from "../assets/JUDO-배포로직.png"
+import MemoDeploymentImg from "../assets/MEMO-배포로직.png"
 
 function ProjectMemo() {
   
@@ -80,14 +80,14 @@ function ProjectMemo() {
         </li>
 
         <li>
-          <h4>배포 (Deployment)</h4>
-          <p>직접 ubuntu 서버를 구축하여 Spring Boot 애플리케이션을 클라우드 서버에 배포했습니다.</p>
-          <p>자동화된 배포 프로세스를 구축하여 코드 변경 시 즉시 배포가 이루어지도록 설정했습니다.</p>
+          <h4>배포 및 모니터링 시스템 구현</h4>
+          <p>Kubernetes와 ArgoCD를 사용하여 CI/CD 파이프라인을 구축했습니다.</p>
+          <p>Prometheus와 Grafana를 사용하여 모니터링 시스템을 구축했습니다.</p>
         </li>
       </ul>
 
       <div className="project-images">
-        <img src={JudoDeploymentImg} className="project-image" alt=""/>
+        <img src={MemoDeploymentImg} className="project-image" alt=""/>
       </div>
     </div>
   );
