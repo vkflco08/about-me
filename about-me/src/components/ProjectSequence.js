@@ -51,14 +51,6 @@ function ProjectSequence() {
       <p><strong>What did i do</strong></p>
       <ul className="feature-list">
       <li>
-        <h4>MSA 아키텍처 학습 (Microservices Architecture)</h4>
-        <p>초기 프로젝트 기획 단계에서 MSA 구조를 고려하여, 관련 개념과 구현 방식을 학습했습니다.</p>
-        <p>Spring Boot 및 데이터베이스 이미지를 Docker Hub에 업로드하고, Docker Compose를 이용하여 컨테이너를 생성하는 방식을 구현해보았습니다.</p>
-        <p>API Gateway 및 Eureka 도입의 필요성을 검토하며, 마이크로서비스 환경에서 서비스 디스커버리와 라우팅 방식을 실험했습니다.</p>
-        <p>안타깝게도 이후 프로젝트 방향 변경으로 MSA 방식이 취소되었습니다.</p>
-      </li>
-
-      <li>
         <h4>마이페이지 개발 (My Page Development)</h4>
         <p>마이페이지 기능을 담당하여, 관련 데이터베이스 구조를 설계하고 구현했습니다.</p>
         <p>사용자의 정보를 관리하기 위한 기능을 개발하고 있습니다.</p>
@@ -66,7 +58,7 @@ function ProjectSequence() {
 
       <li>
         <h4>소셜 로그인 구현</h4>
-        <p>현재 카카오와 구글 로그인 태스크를 진행 중입니다.</p>
+        <p>현재 카카오와 구글 로그인 기능 개발을 진행 중입니다.</p>
         <p>OAuth 2.0 프로토콜을 사용하여 안전한 소셜 로그인을 구현 중입니다.</p>
         <p>사용자 정보 관리와 토큰 기반 인증 구현을 진행 중입니다.</p>
       </li>
