@@ -12,7 +12,7 @@ function ProjectGranulation() {
 
   const project = {
     name: "!육아",
-    period: "2024. 7 ~ 2024. 8 (2개월)",
+    period: "2024. 07 ~ 2024. 08 (2개월)",
     teamMembers: "4명",
     description: "신생아 부모님들을 위한 커뮤니티 및 정보 공유 플랫폼",
   };

@@ -12,9 +12,9 @@ function ProjectMemo() {
 
   const project = {
     name: "ㅈㅇㄴㄹ",
-    period: "2024. 9 ~ 현재",
+    period: "2024. 9 ~ 2025. 06 (6개월)",
     teamMembers: "개인 프로젝트",
-    description: "내가 직접 만드는 개인 메모장",
+    description: "개인 메모장",
   };
 
   // description의 개행을 <br /> 태그로 변환

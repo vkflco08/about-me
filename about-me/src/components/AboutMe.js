@@ -32,7 +32,14 @@ function AboutMe() {
       {/* About Me 섹션 */}
       <section id="about-me" className="Section about-me">
         <h2>반갑습니다!</h2>
-        <h3>백엔드 개발자 조승빈입니다.</h3>
+        <h3>새로운 기술로 사용자의 문제를 해결하는 것을 즐기는 개발자 조승빈입니다.</h3>
+        <div className="about-me-intro">
+          <p>
+            다양한 개인 프로젝트와 두 번의 산학 협력 프로젝트를 통해 아이디어를 실제 서비스로 구현하는 경험을 쌓았습니다. <br></br>
+            특히 실시간 협업 기능, AI 기반 콘텐츠 생성, LLM 에이전트 개발 등 기술적 깊이가 있는 도전을 즐깁니다. <br></br>
+            Java와 Spring Boot를 기반으로 안정적이고 확장 가능한 시스템을 구축하고, Docker와 Kubernetes를 활용한 DevOps 환경 개선에 관심이 많습니다.
+          </p>
+        </div>
         <div className="about-info">
           <div className="info-item">
             <h4>희망 직무</h4>
@@ -41,13 +48,16 @@ function AboutMe() {
           </div>
           <div className="info-item">
             <h4>관심 분야</h4>
-            <p>DevOps, 서버 최적화, 데이터베이스 설계</p>
+            <p>LLM 에이전트 및 AI 기반 서비스 개발</p>
+            <p>Kubernetes를 활용한 Cloud Native DevOps</p>
+            <p>실시간 협업 시스템 아키텍처 설계</p>
+            <p>안정적이고 확장 가능한 백엔드 시스템 구축</p>
           </div>
           <div className="info-item">
             <h4>학력</h4>
             <p>2019 강화고등학교 졸업</p>
             <p>2019 고려대학교 세종캠퍼스 컴퓨터융합소프트웨어학과 입학</p>
-            <p>2024 고려대학교 세종캠퍼스 (졸업예정)</p>
+            <p>2025 고려대학교 세종캠퍼스 (졸업예정)</p>
           </div>
         </div>
 
@@ -64,16 +74,6 @@ function AboutMe() {
         </div>
       </section>
 
-      {/* Awards 섹션 */}
-      <section id="awards">
-        <Awards />
-      </section>
-
-      {/* Skills 섹션 */}
-      <section id="skills">
-        <Skills />
-      </section>
-
       {/* Projects 섹션 */}
       <section id="projects">
         <Projects />
@@ -84,6 +84,15 @@ function AboutMe() {
         <Career />
       </section>
 
+      {/* Skills 섹션 */}
+      <section id="skills">
+        <Skills />
+      </section>
+
+      {/* Awards 섹션 */}
+      <section id="awards">
+        <Awards />
+      </section>
       <Footer />
     </div>
   );
